@@ -1,0 +1,1 @@
+import{r as n,j as e}from"./index-Cr8WPmXE.js";function c(){const[s,t]=n.useState(null),r=async()=>{const a=await(await fetch("php/queryAverageFamilyAge.php")).json();t(a)};return e.jsxs("div",{children:[e.jsx("h2",{children:"查詢 30 歲以上員工之平均眷屬年齡"}),e.jsx("button",{onClick:r,children:"查詢"}),s&&e.jsxs("p",{children:["結果：",s.averageAge," 歲"]})]})}export{c as default};
